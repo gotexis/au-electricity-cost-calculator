@@ -2,17 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AU Electricity Cost Calculator | Calculate Your Power Bill",
+  title: "Australian Energy Plan Comparison | Compare Electricity Prices",
   description:
-    "Free Australian electricity cost calculator. Estimate your power bill by appliance, compare time-of-use tariffs, and calculate solar savings. Updated for 2026 rates.",
+    "Compare electricity prices across 9 distribution zones in 4 Australian states. Based on 2024-25 AER Default Market Offer and Victorian Default Offer reference prices.",
   keywords: [
-    "electricity cost calculator",
-    "australian power bill",
-    "electricity calculator australia",
-    "energy cost estimator",
-    "appliance running cost",
-    "time of use tariff calculator",
-    "solar savings calculator australia",
+    "energy comparison australia",
+    "electricity prices australia",
+    "default market offer",
+    "victorian default offer",
+    "energy plan comparison",
+    "cheapest electricity australia",
+    "energy retailers australia",
+    "power bill comparison",
   ],
 };
 
