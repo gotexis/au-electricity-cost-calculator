@@ -117,6 +117,10 @@ export default function HomePage() {
           <h3 className="text-lg font-bold text-yellow-900">⚡ Bill Calculator</h3>
           <p className="text-sm text-yellow-700">Estimate your electricity costs by appliance</p>
         </Link>
+        <Link href="/tools/solar" className="bg-orange-50 border border-orange-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+          <h3 className="text-lg font-bold text-orange-900">☀️ Solar Savings Calculator</h3>
+          <p className="text-sm text-orange-700">Estimate your solar panel savings by state</p>
+        </Link>
         <Link href="/tips" className="bg-green-50 border border-green-200 rounded-xl p-6 hover:shadow-md transition-shadow">
           <h3 className="text-lg font-bold text-green-900">💡 Energy Saving Tips</h3>
           <p className="text-sm text-green-700">8 tips to reduce your power bill</p>
@@ -127,10 +131,7 @@ export default function HomePage() {
         </Link>
       </section>
 
-      <footer className="text-center text-sm text-gray-500 py-8 border-t">
-        <p>Data sourced from AER Default Market Offer and Victorian Default Offer 2024-25.</p>
-        <p className="mt-1">Reference prices are annual maximum caps. Most plans offer 10-25% below these rates.</p>
-      </footer>
+      {/* Footer handled by layout */}
     </main>
   );
 }
